@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header class="header container" id="header">
+      <div class="overlay"></div>
+      <div class="header_content">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="assets/images/logo.svg" alt="Logo"
+          /></a>
+        </div>
+        <div id="toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav class="nav_menu" id="nav-menu">
+          <ul class="navigation">
+            <div id="close-btn"><i class="fa-solid fa-xmark"></i></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="home_section container">
+        <div class="left_content">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="desktop" />
+          <div class="desc">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div class="desc_paragraph">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="right_content">
+          <h2>New</h2>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <h3>The Downsides of AI Artistry</h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </section>
+      <section class="card_section container">
+        <div class="card_content">
+          <div class="card">
+            <img src="assets/images/image-retro-pcs.jpg" alt="img" />
+            <div class="card_details">
+              <h2>01</h2>
+              <h3>Reviving Retro PCs</h3>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/image-top-laptops.jpg" alt="img" />
+            <div class="card_details">
+              <h2>02</h2>
+              <h3>Top 10 Laptops of 2022</h3>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/image-gaming-growth.jpg" alt="img" />
+            <div class="card_details">
+              <h2>03</h2>
+              <h3>The Growth of Gaming</h3>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
