@@ -288,10 +288,12 @@ button {
     position: fixed;
     right: 0;
     top: -500vh;
-    transition: 0.1s;
+    transition: 1s;
+  }
+  .navigation_content {
+    position: relative;
   }
   .navigation {
-    position: relative;
     flex-direction: column;
     align-items: start;
     padding: 150px 0 0 40px;
